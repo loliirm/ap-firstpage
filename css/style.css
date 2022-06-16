@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: rgb(red, rgb(245, 245, 245), blue);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.header {
+    background-color: #fbbc02;
+    position: relative;
+    height: 130px;
+    width: 100%;
+    
+}
+
+.header-logo {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 47px;
+}
+
+.header-content {
+    position: relative;
+}
+
+.bx {
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.bxs-chat {
+    right: 267px;
+    top: 5px
+}
+
+.bxs-user-account {
+    top: 3px;
+}
+
+.bxs-right-arrow-square {
+    top: 3px;
+}
+
+div button{
+    border: none;
+    background-color: #fbbc02;
+    text-decoration: none
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+header div a:hover {
+    color: #333;
+}
+
+.button1 {
+    position: relative;
+    top: 25px;
+    left: 1000px;
+}
+
+.button2 {
+    position: relative;
+    right: 211px;
+    top: 100px;
+}
+
+.button3 {
+    position: relative;
+    top: 100px;
+    left: 620px;
+}
+
+.button4 {
+    position: relative;
+    left: 658px;
+    top: 100px;
+}
+
+header div button:hover{
+    animation-name: movimiento;
+    animation-duration: 1.5s;
+}
+
+header div a:hover{
+    animation-name: movimiento;
+    animation-duration: 1.5s;
+}
+
+@keyframes movimiento {
+    from {
+    color: #fbbc02;
+    }
+
+    to {
+        color: #333;
+    }
+}
+
+main {
+    border-bottom: #fbbc02 solid;
+    min-width: 100%;
+}
+
+article h1 {
+    font-size: xx-large;
+    text-align: center;
+    margin: 8%;
+}
+
+article section {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    justify-content: space-around;
+}
+
+.product1 {
+    max-height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.product-card {
+    border-radius:6px;
+    border: rgba(97, 90, 90, 0.26) solid;
+    border-width: 2px;
+    max-width: 300px;
+    display: grid;
+    height: 32ch;
+    margin-bottom: 3em;
+}
+
+.product-card--active {
+    border-radius:6px;
+    border: rgba(97, 90, 90, 0.26) solid;
+    max-width: 25em;
+    border-width: 2px;
+    margin-bottom: 6em;
+}
+
+section div a:hover{
+    color: #000000;
+}
+
+.description {
+    font-weight: 600;
+    border-radius:6px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.button-compra {
+    background-color: #fbbc02;
+    border-radius: 5px;
+    max-height: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-style: 1px solid;
+    text-decoration: none;
+}
+
+div h1 span {
+    color: #ffffff;
+    text-shadow:  4px 3px #000000;
+}
+
+p {
+    font-size: 14px; 
+    color: #0e0e0e;
+}
+
+
+.modal-content form {
+    height: 400px;
+    width: 300px;
+	border-radius:10px;
+	background-color:rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #020202;
+    margin-bottom: 20px;
+    text-indent: 10px; 
+}
+
+.modal-content input:hover {
+    background-color: #f7f5f1;
+    outline: solid black 1px;
+}
+
+.contact input:hover {
+    background-color: #f7f5f1;
+    outline: solid black 1px;
+}
+
+.modal-content input[type="submit"] {
+    margin-top: 10px;
+}
+
+.modal-content input[type="submit"]:hover {
+    background-color: #fbbc02;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #fbbc02;
+}
+
+.modal-content label{
+    display: block;
+    float: center; 
+    background-color: #ffffff;
+}
+
+.modal-dialog {
+    text-align: center;
+}
+
+.modal-content {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.contact input[type="email"]{
+    background-color: #fbfbfb; 
+    width: 250px; 
+    height: 30px;
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px;
+    border-color: #020202;
+    text-indent: 10px;
+}
+
+.contact input[type="submit"]{
+    background-color: #fbfbfb; 
+    width: 80px; 
+    height: 30px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px;
+    border-color: #020202;
+}
+
+.footer {
+	height: auto;
+	width: 100%;
+    text-align: center;
+}
+
+.footer ul {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 0px;
+    padding: 0 0 8px 0;
+
+}
+
+.row .bx {
+   position: relative;
+   top: 3px;
+   left:-1px;
+}  
